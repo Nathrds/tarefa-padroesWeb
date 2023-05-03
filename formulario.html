@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário</title>
+</head>
+<body>
+    <h1>Formulário exemplo</h1>
+    <form action="programa.php" method="GET">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="idNome">Nome</label>
+            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome">
+
+            <label for="idData">Data de Nascimento</label>
+            <input type="date" name="data" id="idData" placeholder="dd/mm/aaaa">
+
+            <label for="idEmail">E-mail</label>
+            <input type="email" name="email" id="idEmail" placeholder="exemplo@123.com">
+
+            <label for="idTel">Telefone</label>
+            <input type="text" name="tel" id="idTel" placeholder="(XX) XXXXX-XXXX">
+        </fieldset>
+
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Resetar">
+
+        <fieldset>
+            <legend>Dados Acadêmicos</legend>
+            <label for="idCurso">Curso:</label>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
