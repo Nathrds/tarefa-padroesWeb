@@ -39,6 +39,7 @@ ul > li {
 ol {
     text-align: justify;
     padding: 10px 15px;
+    margin-left: 15px;
     line-height: 1.6em;
 }
 
