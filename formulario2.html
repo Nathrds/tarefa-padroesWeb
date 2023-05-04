@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Trabalho de Formulário HTML</h1>
+    <form action="programa.php">
+        <fieldset>
+            <label for="idNome">Nome:</label>
+            <input type="text" name="nome" id="idNome">
+            <br>
+            <label for="idData">Data de Nascimento:</label>
+            <input type="date" name="datanasc" id="idData">
+            <br>
+            <label for="idSexo">Sexo:</label>
+            <input type="radio" name="sexo" id="idSexo"> Masc
+            <input type="radio" name="sexo" id="idSexo"> Fem
+            <input type="radio" name="sexo" id="idSexo"> Prefiro não informar
+            <br>
+            <label for="idEndereco">Endereço:</label>
+            <input type="text" name="endereco" id="idEndereco">
+            <br>
+            <label for="idLogra">Logradouro:</label>
+            <input type="text" name="logradouro" id="idLogra">
+            <br>
+            <label for="idBairro">Biarro:</label>
+            <input type="text" name="bairro" id="idBairro">
+            <br>
+            <label for="idCidade">Cidade:</label>
+            <input type="text" name="cidade" id="idCidade">
+            <br>
+            <label for="idUF">UF:</label>
+            <select name="uf" id="idUF">
+                <option value="">DF</option>
+                <option value="">RJ</option>
+                <option value="">SP</option>
+                <option value="">GO</option>
+                <option value="">MG</option>
+                <option value="">RS</option>
+            </select>
+            <br>
+            <label for="idEmail">E-mail:</label>
+            <input type="email" name="email" id="idEmail">
+            <br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <div>
+        <a href="index.html">Volte para a página principal.</a>
+    </div>
+</body>
+</html>

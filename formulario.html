@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fomulário</title>
+    <link rel="stylesheet" href="formulario.css">
 </head>
 <body>
     <h1>Formulário exemplo</h1>
@@ -12,20 +13,19 @@
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label for="idNome">Nome</label>
-            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome">
+            <input type="text" name="nome" id="idNome" placeholder="Digite seu nome"><br>
 
             <label for="idData">Data de Nascimento</label>
-            <input type="date" name="data" id="idData" placeholder="dd/mm/aaaa">
+            <input type="date" name="data" id="idData" placeholder="dd/mm/aaaa"><br>
 
             <label for="idEmail">E-mail</label>
-            <input type="email" name="email" id="idEmail" placeholder="exemplo@123.com">
+            <input type="email" name="email" id="idEmail" placeholder="exemplo@123.com"><br>
 
             <label for="idTel">Telefone</label>
             <input type="text" name="tel" id="idTel" placeholder="(XX) XXXXX-XXXX">
         </fieldset>
 
-        <input type="submit" value="Gravar">
-        <input type="reset" value="Resetar">
+
 
         <fieldset>
             <legend>Dados Acadêmicos</legend>
@@ -36,8 +36,32 @@
                 <option value="">CD</option>
                 <option value="">SI</option>
             </select>
-            
+            <br>
+            <label for="idSem">Semestre:</label>
+            <input type="radio" name="sem" id="idSem">1°
+            <input type="radio" name="sem" id="idSem">2°
+            <input type="radio" name="sem" id="idSem">3°
+            <input type="radio" name="sem" id="idSem">4°
+            <input type="radio" name="sem" id="idSem">5°
         </fieldset>
+
+        <fieldset>
+            <label for="idTrab">Trabalha?</label>
+            <input type="checkbox" name="trab" id="idTrab">
+            <br>
+            <label for="idLocalTrab">Local de Trabalho:</label>
+            <input type="text" name="localtrab" id="idLocalTrab">
+            <br>
+            <label for="idExp">Descreva sua experiência</label><br>
+            <textarea name="experiencia" id="idExp" cols="70" rows="4"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Gravar">
+        <input type="reset" value="Resetar">
     </form>
+    <br>
+    <div>
+        <a href="index.html">Volte para a página principal.</a>
+    </div>
 </body>
 </html>
