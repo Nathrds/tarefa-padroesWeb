@@ -9,8 +9,8 @@
 
 h1 {
     text-align: center;
-    border-top: 2px solid #243B66;
-    border-bottom: 2px solid #243B66;
+    border-top: 3px solid #243B66;
+    border-bottom: 3px solid #243B66;
     color: #3E67B3;
     padding: 15px;
     margin: 5px 0;
@@ -50,8 +50,8 @@ ol > li {
     display: flex;
     flex-direction: column;
     line-height: 2em;
-    border-top: 2px solid #243B66;
-    border-bottom: 2px solid #243B66;
+    border-top: 3px solid #243B66;
+    border-bottom: 3px solid #243B66;
     text-align: center;
     padding: 12px 0;
     margin: 5px 0;
